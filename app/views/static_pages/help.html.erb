@@ -1,4 +1,4 @@
-<h1>Help Me</h1>
-<p>
-  content.
-</p>
+<% provide(:title, "Help") %>
+
+<h1><%= yield(:title) %></h1>
+<p>my content for the <%= yield(:title) %> page.</p>

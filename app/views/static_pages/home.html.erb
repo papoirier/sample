@@ -1,4 +1,4 @@
-<h1>Sample App</h1>
-<p>
-  content.
-</p>
+<% provide(:title, "Home") %>
+
+<h1><%= yield(:title) %></h1>
+<p>my content for the <%= yield(:title) %> page.</p>
